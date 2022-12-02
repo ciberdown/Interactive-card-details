@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/output.css" rel="stylesheet">
+</head>
+<body class="m-0 box-border overflow-hidden text-xs font-mono">
+    <img src="../starter files/images/bg-card-front.png" alt="" class="
+    h-24 fixed mobile:mt-2 mobile:left-1/2 sm:top-14 sm:left-10 ">
+    <div id="cardownernumber" class="fixed text-white  sm:top-28 sm:left-[3.8rem] mobile:mt-16 
+    mobile:ml-3 mobile:left-1/2 mobile:z-10">0000 0000 0000 0000</div>
+    <div id="cardowner" class="fixed text-white sm:top-[8.7rem] sm:left-[3.4rem] text-[0.6em] 
+    mobile:mt-[5.5rem]  mobile:ml-2 mobile:left-1/2 mobile:z-10">JANE APPLESEED</div>
+    <div id="cardownerexp" class="fixed text-white sm:top-[8.7rem] sm:left-[11.5rem] text-[0.65em] 
+    mobile:ml-36 mobile:left-1/2 mobile:mt-[5.5rem]">00/00</div>
+    <img src="../starter files/images/bg-card-back.png" alt="" class="m-0 p-0
+    h-24 fixed sm:top-44 sm:left-24 mobile:mt-2 mobile:ml-2">
+    <div id="cardownercvc" class="fixed text-white  sm:top-[13.5rem] sm:left-[14.5rem] mobile:text-[.8em]
+    mobile:z-10 mobile:mt-12 mobile:ml-36">000</div>
+    <div id="container" class="flex w-full h-screen box-border bg-gradient-to-l
+    from-blue-100 to-violet-900">
+        <div class="bg-gradient-to-r from-violet-900 to-fuchsia-900
+        sm:w-44 mobile:w-1/6"></div>
+        <div class=" sm:mt-20 mt-32 ml-16 sm:mx-auto flex flex-col w-1/3">
+            <span>CARDHOLDER NAME</span>
+            <input id="cardholder" class="w-52 rounded border-gray-200 border-solid border p-1" type="text" placeholder="e.g.Jane Appleseed">
+            <span class=" mt-2">CARD NUMBER</span>
+            <input id="cardnumber" class="w-52 rounded border-gray-200 border-solid border p-1" type="text" placeholder="e.g.1234 5678 9123 000">
+            <div class="flex mt-3">
+                <div >
+                    <span>EXP.DATE(MM/YY)</span>
+                    <div class="">
+                        <input id="month" class="w-10 rounded border-gray-200 border-solid border p-1" type="text" placeholder="MM">
+                        <input id="year" class="w-10 rounded border-gray-200 border-solid border p-1" type="text" placeholder="YY">
+                    </div>
+                </div>
+                <div  class="flex flex-col ml-8">
+                    <span>CVC</span>
+                    <input id="cvc" class="w-16 rounded border-gray-200 border-solid border p-1" type="text" placeholder="e.g.123">
+                </div>
+                
+            </div>
+            <button id="conf" class="bg-violet-900 box-content border-0 text-white rounded w-52 px-1 h-6 mt-3">Confirm</button>
+            
+            
+        </div>
+    </div>
+</body>
+<script src="./code.js"></script>
+</html>

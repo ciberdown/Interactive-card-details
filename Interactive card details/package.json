@@ -1,0 +1,14 @@
+{
+  "name": "interactive-card-details",
+  "version": "1.0.0",
+  "description": "junior pro",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "amin teymuri",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
